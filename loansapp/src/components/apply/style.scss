@@ -1,0 +1,40 @@
+.apply {
+
+    background: black;
+    background-size: cover;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+
+    .container {
+      margin-left: 10%;
+      margin-top: 10%;
+      color: white;
+    }
+
+    form-group {
+
+    position: absolute;
+    margin-top:10%;
+    padding:10px;
+    bottom: 50px;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+
+
+}
+  
+  @media (max-width: 768px) {
+    .apply {
+      background: #060708;
+      display: grid;
+      grid-template-rows: 50px 40% 1fr;
+    }
+  
+  }
+}

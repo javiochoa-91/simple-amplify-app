@@ -1,0 +1,23 @@
+type Loan @model {
+  id: ID!
+  type: String!
+  amount: Float
+  isApproved: Boolean
+  requestor: User @connection (name:"PersonalLoans")
+}
+
+type User @model {
+  id: ID!
+  name: String!
+  email: String
+  address: String
+  credit: Credit
+  loans: [Loan] @connection (name:"PersonalLoans")
+}
+
+enum Credit {
+  EXCELLENT
+  GOOD
+  OK
+  NOT_GOOD
+}
