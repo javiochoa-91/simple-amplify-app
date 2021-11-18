@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loansapp-dev-195117-authRole",
+      "UnauthRoleArn": "arn:aws:iam::341044331651:role/amplify-loansapp-dev-195117-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::341044331651:role/amplify-loansapp-dev-195117-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-loansapp-dev-195117-deployment",
+      "UnauthRoleName": "amplify-loansapp-dev-195117-unauthRole",
+      "StackName": "amplify-loansapp-dev-195117",
+      "StackId": "arn:aws:cloudformation:us-east-1:341044331651:stack/amplify-loansapp-dev-195117/06dd4120-faff-11eb-9cc1-0e258982388f",
+      "AmplifyAppId": "d39g91lst76dmf"
+    },
+    "categories": {
+      "auth": {
+        "loansapp031ca966": {}
+      }
+    }
+  }
+}
