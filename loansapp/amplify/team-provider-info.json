@@ -10,6 +10,11 @@
       "StackName": "amplify-loansapp-dev-195117",
       "StackId": "arn:aws:cloudformation:us-east-1:341044331651:stack/amplify-loansapp-dev-195117/06dd4120-faff-11eb-9cc1-0e258982388f",
       "AmplifyAppId": "d39g91lst76dmf"
+    },
+    "categories": {
+      "auth": {
+        "loansapp031ca966": {}
+      }
     }
   }
 }

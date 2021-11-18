@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Simple Loan App Using Amplify, React JS And GraphQL
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

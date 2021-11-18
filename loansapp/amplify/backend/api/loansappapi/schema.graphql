@@ -1,4 +1,4 @@
-type Loan @model {
+type Loan @model @aws_api_key{
   id: ID!
   type: String!
   amount: Float
@@ -6,7 +6,7 @@ type Loan @model {
   requestor: User @connection (name:"PersonalLoans")
 }
 
-type User @model {
+type User @model @aws_api_key {
   id: ID!
   name: String!
   email: String
